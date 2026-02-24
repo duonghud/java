@@ -1,0 +1,15 @@
+package java2.buoi4.Lythuyet.Assocation;
+
+public class Bill {
+    private String name;
+    private String phone;
+    private String address;
+    private Payment payment;
+
+    public Bill(String name, String phone, String address, Payment payment){
+        this.name = name;
+        this.phone = phone;
+        this.address = phone;
+        this.payment = payment;
+    }
+}
